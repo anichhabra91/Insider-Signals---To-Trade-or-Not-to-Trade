@@ -49,8 +49,7 @@ A 52-week z-score of net insider transaction value:
 
 ### 2. Refined Public Score
 Weighted insider signal incorporating seniority:
-PublicScore = z(NetTransaction) + z(0.5 * L1 + 0.3 * L2 + 0.2 * L3)
-Where L1/L2/L3 are counts of trades by insider level.
+PublicScore = z(NetTransaction) + z(0.5 * L1 + 0.3 * L2 + 0.2 * L3) where L1/L2/L3 are counts of trades by insider level.
 
 This improved score places more emphasis on senior executives, who exhibit the strongest informational advantage.
 
@@ -82,4 +81,4 @@ Key findings:
 
 ## Conclusion
 
-Modern insider trading data still contains valuable predictive content, but only after careful cleaning, filtering, and contextualization. Rule-based, interpretable insider signals—especially those weighted by insider seniority—provide improved predictive power and more stable returns compared to simple net transaction metrics. Future extensions include machine-learning–based scoring, insider track record modeling, and integration with multi-factor systems.
+Modern insider trading data still contains valuable predictive content, but only after careful cleaning, filtering, and contextualization. Rule-based, interpretable insider signals, especially those weighted by insider seniority provide improved predictive power and more stable returns compared to simple net transaction metrics. Future extensions include machine-learning–based scoring, insider track record modeling, and integration with multi-factor systems.
